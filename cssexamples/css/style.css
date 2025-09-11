@@ -5,3 +5,10 @@ body{
     
     /* how to write a commect in css */
 }
+
+h1{
+    font-family:sans-serif;
+}
+h2{
+    font-family:cursive;
+}
