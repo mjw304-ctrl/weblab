@@ -1,14 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap');
 body{
     background-color: coral;
     background-color: rgba(0,255,0, 0.75); /* rgb 0-255 */
-    background-color: #999999;
+    background-color: #f15f1051;
     
     /* how to write a commect in css */
 }
 
+header{
+    width: 960px;
+    background-color:rgba(255, 0, 0, 0.718);
+    padding: 20px;
+    border: 5px solid orange
+    margin-top: -7px;
+    margin-bottom: 10px
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    width: 960px;
+    background-color: rgba(255, 132, 8, 0.374);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 5px dotted green
+    margin: 0px auto; /* sets top and bottom to 0px & left and right to auto*/
+}
+
+footer{
+    width: 960px;
+    /* use height: 50px; if there is no text in footer */
+    background-color:rgb(0, 213, 21);
+    padding: 20px;
+    border: 5px dashed red
+}
+
 h1{
-    font-family:sans-serif;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+
 }
 h2{
     font-family:cursive;
+    text-transform: capitalize; /* Capitalizes first letter of every word */
 }
+
+ul{
+    list-style: square;
+}
+
+/*ul li{
+    color: blue
+} changes color of words */
+
+/*ul li{
+    text-decoration: underline;
+} underline all non-ordered list*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 242, 0);
+}
+
+img{
+    width: 300px;
+    /* height: 100px
+    use width or height when setting img size*/ 
+}
+
+.imageGallery{
+    width: 200px;
+}
+
+.red{
+    color: rgb(252, 0, 0);
+}
+
+.redBackground{
+    background-color:rgba(255, 70, 76, 0.472)
+}
+
