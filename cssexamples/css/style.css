@@ -11,9 +11,9 @@ header{
     width: 960px;
     background-color:rgba(255, 0, 0, 0.718);
     padding: 20px;
-    border: 5px solid orange
+    border: 5px solid orange;
     margin-top: -7px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,7 +25,7 @@ main{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    border-left: 5px dotted green
+    border-left: 5px dotted green;
     margin: 0px auto; /* sets top and bottom to 0px & left and right to auto*/
 }
 
@@ -87,3 +87,26 @@ img{
     background-color:rgba(255, 70, 76, 0.472)
 }
 
+
+nav{
+    width: 400px; 
+    margin: 0px auto;
+    border-bottom: black 2px solid;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+
+}
+
+nav ul li a:hover{
+
+}
