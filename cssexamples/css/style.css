@@ -37,8 +37,8 @@ footer{
     margin-top: 8px;
     margin-bottom: 10px;
     padding: 20px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 0px;
+    margin-right: 0px;
     /* use height: 50px; if there is no text in footer */
     background-color:rgba(255, 0, 0, 0.618);
     padding: 20px;
@@ -64,8 +64,8 @@ ul{
 p{
     font-size: 22px;
     text-align: center;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*ul li{
