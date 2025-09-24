@@ -115,13 +115,14 @@ nav{
 }
 
 nav ul{
-
+    text-align: center;
+    padding: 0px;
+    margin: 6px;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    text-align: center;
     margin-left: 0px;
     text-decoration: none;
 }
