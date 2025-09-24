@@ -30,7 +30,8 @@ main{
     border-top: 5px dotted blue;
     border-bottom: 5px dotted blue;
     margin: 0px auto; /* sets top and bottom to 0px & left and right to auto*/
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    box-shadow: 10px 5px 15px rgba(4, 50, 255, 0.687); 
+    /* learned new css tool SHADOW */
 }
 
 footer{
