@@ -115,14 +115,14 @@ nav{
 }
 
 nav ul{
-    
+
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin-right: 10px;
-    margin-left: 10px;
+    
+    margin-left: 0px;
     text-decoration: none;
 }
 
