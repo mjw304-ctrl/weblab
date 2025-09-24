@@ -30,6 +30,7 @@ main{
     border-top: 5px dotted blue;
     border-bottom: 5px dotted blue;
     margin: 0px auto; /* sets top and bottom to 0px & left and right to auto*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
 }
 
 footer{
@@ -123,7 +124,8 @@ nav ul{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin-left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none;
 }
 
